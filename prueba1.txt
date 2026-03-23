@@ -2,4 +2,13 @@ Here testing :  going to github
 
 this third line was added in github.com by me
 
-I also created a new branch this monday
+I also created a new branch this Monday
+
+### adding a function ####
+
+def calculate_total(price, quantity):
+    if quantity < 0:
+        raise ValueError("Quantity cannot be negative")
+    return price * quantity
+
+# Bug fixed: Handles negative quantities by raising an error
